@@ -11,10 +11,9 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  result
-  result += array.pop()
-  result += array.pop()
-  return result
+  last = array.pop()
+  last2 = array.pop()
+  return last, last2
 end
 
 def using_shift(array)
